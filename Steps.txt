@@ -1,0 +1,9 @@
+Steps:
+1: Exexute the trainchatbot.py file in your vscode/google colab/jupyternotebook. [In case, you want to create a model using different json file as your dataset]
+[If not, you can just upload all the file in your colab/vscode and continue from step 3]
+2: After executing successfully, You will be able to see the chatbot_model.h5 file in your folder.
+3: Exexcute the DL.ipynb file
+4: Execute the DL_2.ipynb file
+5: You will get an url for the chatbot.
+6: Using your frontend, kindly provide the same url in the 'chatbot' button.
+7: You can now easily interact with your chatbot.
