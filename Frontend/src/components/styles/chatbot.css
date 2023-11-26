@@ -1,0 +1,94 @@
+body {
+  background-color: #387022;
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+.chatbotapp {
+  text-align: center;
+  padding: 20px;
+}
+
+.chatbotapp h3 {
+  color: white;
+  font-size: 24px;
+}
+
+.chatbotapp p {
+  margin: 0;
+  text-align: left;
+  color: white;
+}
+
+#chatbot {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.message-container {
+  display: flex;
+  margin: 5px;
+}
+
+.bot-message,
+.user-message {
+  padding: 10px;
+  color: white;
+}
+
+.user-message {
+  align-self: flex-end;
+  border-radius: 15px 15px 0 15px;
+  background-color: #036305; /* Dark green background color for user's message */
+}
+
+.bot-message {
+  align-self: flex-start;
+  border-radius: 15px 15px 15px 0;
+  position: relative;
+  background-color: #282c35; /* Change the background color to black for bot's message */
+  color: white; /* Text color for bot's message */
+}
+
+.bot-message::before {
+  content: "\f6a5";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 18px;
+  color: #7f7f7f;
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.message-sender {
+  margin-right: 60px;
+  font-weight: bold;
+}
+
+form {
+  align-items: center;
+}
+
+#user-input {
+  width: calc(100% - 10px);
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin-right: 10px;
+  background-color: #036305; /* Dark green background color for user input */
+  color: white; /* Text color for user input */
+}
+
+#send-button {
+  display: none;
+}
