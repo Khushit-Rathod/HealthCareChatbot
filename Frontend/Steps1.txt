@@ -1,0 +1,16 @@
+This are the steps to run Our Ai Heathcare Website on your Machine
+1.Upon accessing the website, you'll be greeted by the landing page.
+
+2.Navigate to the "Register" button in the navigation bar.
+
+3.If you're an existing user, simply log in. New users can create an account by providing their name , email and password.
+
+4.After successfully logging in or registering, you'll be redirected to the homepage.
+
+5.Explore the various features and sections of our website.
+
+6.Utilize our advanced Chatbot to receive answers to all your healthcare-related queries.
+
+7.For any concerns, issues, or valuable suggestions, please feel free to contact us via email.
+
+8.We appreciate your visit and look forward to welcoming you again.
